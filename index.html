@@ -1,0 +1,187 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>FORM</title>
+</head>
+
+
+<body>
+<style>
+body{
+background-image: url('Dy.png');
+font-family:Arial,Helvetica,sans-serif;
+margin:30px;
+}
+.header{
+background-color:blue;
+font-align:arial;
+text-align:center;
+color:white;
+margin:0;
+padding:10px;
+}
+.forms{
+background-color:white;
+text-align:center;
+font-family:arial;
+margin:0;
+padding:10px;
+}
+.footer{
+background-color:blue;
+text-align:center;
+font-familiy:arial;
+color:white;
+margin:0;
+padding:15px;}
+</style>
+
+<div class="header">
+<h1><u>Form of registration &#9787</u></h1>
+<h2>You suppose to enter your details carefully</h2>
+</div>
+
+<div class="forms">
+<h1 style="text-align:center"><u>Your profile &#9924;</u></h1>
+<form action="save.php" method="POST" target="_blank" autocomlete="off">
+<fieldset style="background-color:skyblue;color:blue;">
+<legend>profile</legend>
+<p><b>Edit Your Personal Information.</b></p>
+<hr></hr>
+<lebel style="color:red" for="first-name">First name</lebel>
+<br>
+<input type="text" id="first-name" name="first-name" placeholder="enter name:" autofocus required>
+<br></br>
+<lebel style="color:red" for="middle-name">Middle name</lebel>
+<br>
+<input type="text"id="middle-name" name="middle-name" placeholder="enter name:" required>
+<br></br>
+<lebel style="color:red" for="last-name">Last name:</lebel>
+<br>
+<input type="text" id="last-name" name="last-name" placeholder="enter name:" required>
+<br></br>
+<lebel style="color:red" for="gender">Gender:</lebel>
+<br>
+<select id="gender">
+<option>Male</option>
+<option>Female</option>
+</select><br></br>
+<lebel style="color:red" for="date">Birth date</lebel>
+<br>
+<input type="date" id="date" name="date" placeholder="enter date" required>
+<br></br>
+<lebel style="color:red" for="nationalty">nationality</lebel>
+<br>
+<select id="nationality">
+<option>Tanzania</option>
+<option>Kenya</option>
+<option>Uganda</option>
+<option>Zanzibar</option>
+<option>Rwanda</option>
+<option>Burundi</option>
+<option>Malawi</option>
+<option>DRC Congo</option>
+<option>Msumbiji</option>
+<option>Sudani</option>
+</select><br></br>
+<lebel style="color:red" for="number">Form IV Index No</lebel>
+<br>
+<input type="text" id="number" placeholder="S....." maxlength="15" required >
+<br></br>
+<lebel style="color:red" for="email">Email address</lebel>
+<br>
+<input type="email" id="email" placeholder="examples@mail.com" required >
+<br></br>
+<label style="color:red" for="phone">Phone number &#9742;</label>
+<br>
+<input type="tel" id="phone" name="phone" placeholder="0763-45-678" pattern="^(06|07)[0-9]{8}$" required>
+<br>
+<small>Format: 0763-475-678</small>
+<br></br>
+<lebel style="color:red" for="myfile">Profile picture</lebel>
+<br>
+<input type="file" id="myfile" name="mylife" requred>
+<br></br> 
+<lebel style="color:red" for="number">NIDA Number(optional)</lebel>
+<br>
+<input type="number" id="number" placeholder="nida num...." maxlength="20" required>
+<br></br>
+<lebel style="color:red" for="myfile">Birth certificate</lebel>
+<br>
+<input type="file" id="myfile"  required>
+<br></br>
+<lebel style="color:red" for="status">Martial status</lebel>
+<br>
+<select id="status">
+<option>single</option>
+<option>married</option>
+<option>Others</option>
+<option>Divorced</option>
+<option>Widowed</option>
+<option>Separated</option>
+</select>
+<br></br>
+<lebel style="color:red" for="number">Number of Dependants(eg.0,1,2,....etc)</lebel>
+<br>
+<input type="number" id="number" placeholder="1" required>
+<br></br>
+<lebel style="color:red" for="region">region Name</lebel>
+<br>
+<select id="region">
+<option>Dar es salaam</option>
+<option>Arusha</option>
+<option>Dodoma</option>
+<option>Geita</option>
+<option>Iringa</option>
+<option>Kagera</option>
+<option>Katavi</option>
+<option>Kigoma</option>
+<option>Kilimanjaro</option>
+<option>Lindi</option>
+<option>Manyara</option>
+<option>Mara</option>
+<option>Mbeya</option>
+<option>Morogoro</option>
+<option>Mtwara</option>
+<option>Mwanza</option>
+<option>Njombe</option>
+<option>Pemba North</option>
+<option>pemba South</option>
+<option>Pwani</option>
+<option>Rukwa</option>
+<option>Ruvuma</option>
+<option>Shinyanga</option>
+<option>Simiyu</option>
+<option>songwe</option>
+<option>Tabora</option>
+<option>Tanga</option>
+<option>Zanzibar Central South</option>
+<option>Zanzibar North</option>
+<option>Zanzibar Western</option>
+</select>
+<br></br>
+<lebel style="color:red" for="district">District</lebel>
+<br>
+<select id="district">
+<option>Temeke</option>
+<option>Ilala</option>
+</select>
+<br></br>
+<input type="submit" value="reset">
+<input type="submit" value="submit">
+<br>
+<hr></hr>
+</fieldset>
+</form>
+</div>
+
+<div class="footer">
+<footer>
+<b>DIZZO DEEPAK&trade; &copy 2026.</b>
+</footer>
+</div>
+
+</body>
+</html>
